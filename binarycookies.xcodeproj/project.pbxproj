@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6917A7D1CA1843E0071DC63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917A7C1CA1843E0071DC63 /* AppDelegate.m */; };
+		C6917A801CA1843E0071DC63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917A7F1CA1843E0071DC63 /* main.m */; };
+		C6917A821CA1843E0071DC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6917A811CA1843E0071DC63 /* Assets.xcassets */; };
+		C6917A851CA1843E0071DC63 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6917A831CA1843E0071DC63 /* MainMenu.xib */; };
+		C6917A901CA1843E0071DC63 /* binarycookiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917A8F1CA1843E0071DC63 /* binarycookiesTests.m */; };
+		C6917A9B1CA1843E0071DC63 /* binarycookiesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917A9A1CA1843E0071DC63 /* binarycookiesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6917A8C1CA1843E0071DC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6917A701CA1843E0071DC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6917A771CA1843E0071DC63;
+			remoteInfo = binarycookies;
+		};
+		C6917A971CA1843E0071DC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6917A701CA1843E0071DC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6917A771CA1843E0071DC63;
+			remoteInfo = binarycookies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6917A781CA1843E0071DC63 /* binarycookies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = binarycookies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6917A7B1CA1843E0071DC63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6917A7C1CA1843E0071DC63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6917A7F1CA1843E0071DC63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6917A811CA1843E0071DC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6917A841CA1843E0071DC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C6917A861CA1843E0071DC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6917A8B1CA1843E0071DC63 /* binarycookiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = binarycookiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6917A8F1CA1843E0071DC63 /* binarycookiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = binarycookiesTests.m; sourceTree = "<group>"; };
+		C6917A911CA1843E0071DC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6917A961CA1843E0071DC63 /* binarycookiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = binarycookiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6917A9A1CA1843E0071DC63 /* binarycookiesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = binarycookiesUITests.m; sourceTree = "<group>"; };
+		C6917A9C1CA1843E0071DC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6917A751CA1843E0071DC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6917A881CA1843E0071DC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6917A931CA1843E0071DC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6917A6F1CA1843E0071DC63 = {
+			isa = PBXGroup;
+			children = (
+				C6917A7A1CA1843E0071DC63 /* binarycookies */,
+				C6917A8E1CA1843E0071DC63 /* binarycookiesTests */,
+				C6917A991CA1843E0071DC63 /* binarycookiesUITests */,
+				C6917A791CA1843E0071DC63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6917A791CA1843E0071DC63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6917A781CA1843E0071DC63 /* binarycookies.app */,
+				C6917A8B1CA1843E0071DC63 /* binarycookiesTests.xctest */,
+				C6917A961CA1843E0071DC63 /* binarycookiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6917A7A1CA1843E0071DC63 /* binarycookies */ = {
+			isa = PBXGroup;
+			children = (
+				C6917A7B1CA1843E0071DC63 /* AppDelegate.h */,
+				C6917A7C1CA1843E0071DC63 /* AppDelegate.m */,
+				C6917A811CA1843E0071DC63 /* Assets.xcassets */,
+				C6917A831CA1843E0071DC63 /* MainMenu.xib */,
+				C6917A861CA1843E0071DC63 /* Info.plist */,
+				C6917A7E1CA1843E0071DC63 /* Supporting Files */,
+			);
+			path = binarycookies;
+			sourceTree = "<group>";
+		};
+		C6917A7E1CA1843E0071DC63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6917A7F1CA1843E0071DC63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6917A8E1CA1843E0071DC63 /* binarycookiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6917A8F1CA1843E0071DC63 /* binarycookiesTests.m */,
+				C6917A911CA1843E0071DC63 /* Info.plist */,
+			);
+			path = binarycookiesTests;
+			sourceTree = "<group>";
+		};
+		C6917A991CA1843E0071DC63 /* binarycookiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6917A9A1CA1843E0071DC63 /* binarycookiesUITests.m */,
+				C6917A9C1CA1843E0071DC63 /* Info.plist */,
+			);
+			path = binarycookiesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6917A771CA1843E0071DC63 /* binarycookies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6917A9F1CA1843E0071DC63 /* Build configuration list for PBXNativeTarget "binarycookies" */;
+			buildPhases = (
+				C6917A741CA1843E0071DC63 /* Sources */,
+				C6917A751CA1843E0071DC63 /* Frameworks */,
+				C6917A761CA1843E0071DC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = binarycookies;
+			productName = binarycookies;
+			productReference = C6917A781CA1843E0071DC63 /* binarycookies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6917A8A1CA1843E0071DC63 /* binarycookiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6917AA21CA1843E0071DC63 /* Build configuration list for PBXNativeTarget "binarycookiesTests" */;
+			buildPhases = (
+				C6917A871CA1843E0071DC63 /* Sources */,
+				C6917A881CA1843E0071DC63 /* Frameworks */,
+				C6917A891CA1843E0071DC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6917A8D1CA1843E0071DC63 /* PBXTargetDependency */,
+			);
+			name = binarycookiesTests;
+			productName = binarycookiesTests;
+			productReference = C6917A8B1CA1843E0071DC63 /* binarycookiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6917A951CA1843E0071DC63 /* binarycookiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6917AA51CA1843E0071DC63 /* Build configuration list for PBXNativeTarget "binarycookiesUITests" */;
+			buildPhases = (
+				C6917A921CA1843E0071DC63 /* Sources */,
+				C6917A931CA1843E0071DC63 /* Frameworks */,
+				C6917A941CA1843E0071DC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6917A981CA1843E0071DC63 /* PBXTargetDependency */,
+			);
+			name = binarycookiesUITests;
+			productName = binarycookiesUITests;
+			productReference = C6917A961CA1843E0071DC63 /* binarycookiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6917A701CA1843E0071DC63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Instrumentality of Mankind";
+				TargetAttributes = {
+					C6917A771CA1843E0071DC63 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C6917A8A1CA1843E0071DC63 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C6917A771CA1843E0071DC63;
+					};
+					C6917A951CA1843E0071DC63 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C6917A771CA1843E0071DC63;
+					};
+				};
+			};
+			buildConfigurationList = C6917A731CA1843E0071DC63 /* Build configuration list for PBXProject "binarycookies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6917A6F1CA1843E0071DC63;
+			productRefGroup = C6917A791CA1843E0071DC63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6917A771CA1843E0071DC63 /* binarycookies */,
+				C6917A8A1CA1843E0071DC63 /* binarycookiesTests */,
+				C6917A951CA1843E0071DC63 /* binarycookiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6917A761CA1843E0071DC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6917A821CA1843E0071DC63 /* Assets.xcassets in Resources */,
+				C6917A851CA1843E0071DC63 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6917A891CA1843E0071DC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6917A941CA1843E0071DC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6917A741CA1843E0071DC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6917A801CA1843E0071DC63 /* main.m in Sources */,
+				C6917A7D1CA1843E0071DC63 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6917A871CA1843E0071DC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6917A901CA1843E0071DC63 /* binarycookiesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6917A921CA1843E0071DC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6917A9B1CA1843E0071DC63 /* binarycookiesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6917A8D1CA1843E0071DC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6917A771CA1843E0071DC63 /* binarycookies */;
+			targetProxy = C6917A8C1CA1843E0071DC63 /* PBXContainerItemProxy */;
+		};
+		C6917A981CA1843E0071DC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6917A771CA1843E0071DC63 /* binarycookies */;
+			targetProxy = C6917A971CA1843E0071DC63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6917A831CA1843E0071DC63 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6917A841CA1843E0071DC63 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6917A9D1CA1843E0071DC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6917A9E1CA1843E0071DC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6917AA01CA1843E0071DC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = binarycookies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.from.chajka.binarycookies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6917AA11CA1843E0071DC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = binarycookies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.from.chajka.binarycookies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6917AA31CA1843E0071DC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = binarycookiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.from.chajka.binarycookiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/binarycookies.app/Contents/MacOS/binarycookies";
+			};
+			name = Debug;
+		};
+		C6917AA41CA1843E0071DC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = binarycookiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.from.chajka.binarycookiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/binarycookies.app/Contents/MacOS/binarycookies";
+			};
+			name = Release;
+		};
+		C6917AA61CA1843E0071DC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = binarycookiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.from.chajka.binarycookiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = binarycookies;
+			};
+			name = Debug;
+		};
+		C6917AA71CA1843E0071DC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = binarycookiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.from.chajka.binarycookiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = binarycookies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6917A731CA1843E0071DC63 /* Build configuration list for PBXProject "binarycookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6917A9D1CA1843E0071DC63 /* Debug */,
+				C6917A9E1CA1843E0071DC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6917A9F1CA1843E0071DC63 /* Build configuration list for PBXNativeTarget "binarycookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6917AA01CA1843E0071DC63 /* Debug */,
+				C6917AA11CA1843E0071DC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6917AA21CA1843E0071DC63 /* Build configuration list for PBXNativeTarget "binarycookiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6917AA31CA1843E0071DC63 /* Debug */,
+				C6917AA41CA1843E0071DC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6917AA51CA1843E0071DC63 /* Build configuration list for PBXNativeTarget "binarycookiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6917AA61CA1843E0071DC63 /* Debug */,
+				C6917AA71CA1843E0071DC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6917A701CA1843E0071DC63 /* Project object */;
+}
