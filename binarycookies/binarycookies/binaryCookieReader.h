@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface binaryCookieReader : NSObject
+@interface binaryCookieReader : NSObject {
+	NSData						*binarycookie;
+	NSUInteger					position;
+}
 
 @end
