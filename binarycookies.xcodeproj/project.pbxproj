@@ -13,6 +13,8 @@
 		C6917A851CA1843E0071DC63 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6917A831CA1843E0071DC63 /* MainMenu.xib */; };
 		C6917A901CA1843E0071DC63 /* binarycookiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917A8F1CA1843E0071DC63 /* binarycookiesTests.m */; };
 		C6917A9B1CA1843E0071DC63 /* binarycookiesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917A9A1CA1843E0071DC63 /* binarycookiesUITests.m */; };
+		C6917AAB1CA18D920071DC63 /* binaryCookieReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917AAA1CA18D920071DC63 /* binaryCookieReader.m */; };
+		C6917AAC1CA18D920071DC63 /* binaryCookieReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917AAA1CA18D920071DC63 /* binaryCookieReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		C6917A961CA1843E0071DC63 /* binarycookiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = binarycookiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6917A9A1CA1843E0071DC63 /* binarycookiesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = binarycookiesUITests.m; sourceTree = "<group>"; };
 		C6917A9C1CA1843E0071DC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6917AA91CA18D920071DC63 /* binaryCookieReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = binaryCookieReader.h; path = binarycookies/binaryCookieReader.h; sourceTree = "<group>"; };
+		C6917AAA1CA18D920071DC63 /* binaryCookieReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = binaryCookieReader.m; path = binarycookies/binaryCookieReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		C6917A7A1CA1843E0071DC63 /* binarycookies */ = {
 			isa = PBXGroup;
 			children = (
+				C6917AA81CA184C20071DC63 /* cookieslicer */,
 				C6917A7B1CA1843E0071DC63 /* AppDelegate.h */,
 				C6917A7C1CA1843E0071DC63 /* AppDelegate.m */,
 				C6917A811CA1843E0071DC63 /* Assets.xcassets */,
@@ -130,6 +135,15 @@
 				C6917A9C1CA1843E0071DC63 /* Info.plist */,
 			);
 			path = binarycookiesUITests;
+			sourceTree = "<group>";
+		};
+		C6917AA81CA184C20071DC63 /* cookieslicer */ = {
+			isa = PBXGroup;
+			children = (
+				C6917AA91CA18D920071DC63 /* binaryCookieReader.h */,
+				C6917AAA1CA18D920071DC63 /* binaryCookieReader.m */,
+			);
+			name = cookieslicer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6917AAB1CA18D920071DC63 /* binaryCookieReader.m in Sources */,
 				C6917A801CA1843E0071DC63 /* main.m in Sources */,
 				C6917A7D1CA1843E0071DC63 /* AppDelegate.m in Sources */,
 			);
@@ -271,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6917A901CA1843E0071DC63 /* binarycookiesTests.m in Sources */,
+				C6917AAC1CA18D920071DC63 /* binaryCookieReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +413,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = binarycookies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = tv.from.chajka.binarycookies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +426,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = binarycookies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = tv.from.chajka.binarycookies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
