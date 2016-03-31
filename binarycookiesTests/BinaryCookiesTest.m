@@ -1,18 +1,21 @@
 //
-//  binarycookiesTests.m
-//  binarycookiesTests
+//  BinaryCookiesTest.m
+//  binarycookies
 //
-//  Created by Чайка on 3/22/16.
+//  Created by Чайка on 3/31/16.
 //  Copyright © 2016 Instrumentality of Mankind. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import "BinaryCookies.h"
 
-@interface binarycookiesTests : XCTestCase
+NSString * const CookiePath = @"~/Library/Cookies/Cookies.binarycookies";
+
+@interface BinaryCookiesTest : XCTestCase
 
 @end
 
-@implementation binarycookiesTests
+@implementation BinaryCookiesTest
 
 - (void)setUp {
     [super setUp];
@@ -27,6 +30,14 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+	NSString *cookiePath = [CookiePath stringByExpandingTildeInPath];
+	@try {
+		NSArray *array = [BinaryCookies parseWithPath:cookiePath];
+		NSLog(@"%@", array);
+	} @catch (NSException *exception) {
+		NSLog(@"%@", exception);
+		XCTFail(@"Catch exception : %@", exception);
+	}
 }
 
 - (void)testPerformanceExample {

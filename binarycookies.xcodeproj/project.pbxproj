@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C65957251CAC3170009908EF /* BinaryCookiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65957241CAC3170009908EF /* BinaryCookiesTest.m */; };
 		C6917A7D1CA1843E0071DC63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917A7C1CA1843E0071DC63 /* AppDelegate.m */; };
 		C6917A801CA1843E0071DC63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917A7F1CA1843E0071DC63 /* main.m */; };
 		C6917A821CA1843E0071DC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6917A811CA1843E0071DC63 /* Assets.xcassets */; };
 		C6917A851CA1843E0071DC63 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6917A831CA1843E0071DC63 /* MainMenu.xib */; };
-		C6917A901CA1843E0071DC63 /* binarycookiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917A8F1CA1843E0071DC63 /* binarycookiesTests.m */; };
-		C6917A9B1CA1843E0071DC63 /* binarycookiesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917A9A1CA1843E0071DC63 /* binarycookiesUITests.m */; };
-		C6917AAB1CA18D920071DC63 /* binaryCookieReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917AAA1CA18D920071DC63 /* binaryCookieReader.m */; };
-		C6917AAC1CA18D920071DC63 /* binaryCookieReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917AAA1CA18D920071DC63 /* binaryCookieReader.m */; };
+		C6917AAB1CA18D920071DC63 /* binaryreader.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917AAA1CA18D920071DC63 /* binaryreader.m */; };
+		C6917AAC1CA18D920071DC63 /* binaryreader.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917AAA1CA18D920071DC63 /* binaryreader.m */; };
+		C6917AAF1CA1A9FC0071DC63 /* CookieParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917AAE1CA1A9FC0071DC63 /* CookieParser.m */; };
+		C6917AB01CA1A9FC0071DC63 /* CookieParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C6917AAE1CA1A9FC0071DC63 /* CookieParser.m */; };
+		C6BCED761CA49C1400545132 /* BinaryCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BCED751CA49C1400545132 /* BinaryCookies.m */; };
+		C6BCED771CA49C1400545132 /* BinaryCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BCED751CA49C1400545132 /* BinaryCookies.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,16 +28,10 @@
 			remoteGlobalIDString = C6917A771CA1843E0071DC63;
 			remoteInfo = binarycookies;
 		};
-		C6917A971CA1843E0071DC63 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6917A701CA1843E0071DC63 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6917A771CA1843E0071DC63;
-			remoteInfo = binarycookies;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C65957241CAC3170009908EF /* BinaryCookiesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryCookiesTest.m; sourceTree = "<group>"; };
 		C6917A781CA1843E0071DC63 /* binarycookies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = binarycookies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6917A7B1CA1843E0071DC63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6917A7C1CA1843E0071DC63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,13 +40,15 @@
 		C6917A841CA1843E0071DC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C6917A861CA1843E0071DC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6917A8B1CA1843E0071DC63 /* binarycookiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = binarycookiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6917A8F1CA1843E0071DC63 /* binarycookiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = binarycookiesTests.m; sourceTree = "<group>"; };
 		C6917A911CA1843E0071DC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6917A961CA1843E0071DC63 /* binarycookiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = binarycookiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6917A9A1CA1843E0071DC63 /* binarycookiesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = binarycookiesUITests.m; sourceTree = "<group>"; };
 		C6917A9C1CA1843E0071DC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6917AA91CA18D920071DC63 /* binaryCookieReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = binaryCookieReader.h; path = binarycookies/binaryCookieReader.h; sourceTree = "<group>"; };
-		C6917AAA1CA18D920071DC63 /* binaryCookieReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = binaryCookieReader.m; path = binarycookies/binaryCookieReader.m; sourceTree = "<group>"; };
+		C6917AA91CA18D920071DC63 /* binaryreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = binaryreader.h; path = binarycookies/binaryreader.h; sourceTree = "<group>"; };
+		C6917AAA1CA18D920071DC63 /* binaryreader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = binaryreader.m; path = binarycookies/binaryreader.m; sourceTree = "<group>"; };
+		C6917AAD1CA1A9FC0071DC63 /* CookieParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CookieParser.h; path = binarycookies/CookieParser.h; sourceTree = "<group>"; };
+		C6917AAE1CA1A9FC0071DC63 /* CookieParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CookieParser.m; path = binarycookies/CookieParser.m; sourceTree = "<group>"; };
+		C6BCED741CA49C1400545132 /* BinaryCookies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryCookies.h; path = binarycookies/BinaryCookies.h; sourceTree = "<group>"; };
+		C6BCED751CA49C1400545132 /* BinaryCookies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryCookies.m; path = binarycookies/BinaryCookies.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +60,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C6917A881CA1843E0071DC63 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6917A931CA1843E0071DC63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,7 +84,6 @@
 			children = (
 				C6917A781CA1843E0071DC63 /* binarycookies.app */,
 				C6917A8B1CA1843E0071DC63 /* binarycookiesTests.xctest */,
-				C6917A961CA1843E0071DC63 /* binarycookiesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,8 +113,8 @@
 		C6917A8E1CA1843E0071DC63 /* binarycookiesTests */ = {
 			isa = PBXGroup;
 			children = (
-				C6917A8F1CA1843E0071DC63 /* binarycookiesTests.m */,
 				C6917A911CA1843E0071DC63 /* Info.plist */,
+				C65957241CAC3170009908EF /* BinaryCookiesTest.m */,
 			);
 			path = binarycookiesTests;
 			sourceTree = "<group>";
@@ -140,8 +131,12 @@
 		C6917AA81CA184C20071DC63 /* cookieslicer */ = {
 			isa = PBXGroup;
 			children = (
-				C6917AA91CA18D920071DC63 /* binaryCookieReader.h */,
-				C6917AAA1CA18D920071DC63 /* binaryCookieReader.m */,
+				C6917AA91CA18D920071DC63 /* binaryreader.h */,
+				C6917AAA1CA18D920071DC63 /* binaryreader.m */,
+				C6917AAD1CA1A9FC0071DC63 /* CookieParser.h */,
+				C6917AAE1CA1A9FC0071DC63 /* CookieParser.m */,
+				C6BCED741CA49C1400545132 /* BinaryCookies.h */,
+				C6BCED751CA49C1400545132 /* BinaryCookies.m */,
 			);
 			name = cookieslicer;
 			sourceTree = "<group>";
@@ -184,24 +179,6 @@
 			productReference = C6917A8B1CA1843E0071DC63 /* binarycookiesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C6917A951CA1843E0071DC63 /* binarycookiesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C6917AA51CA1843E0071DC63 /* Build configuration list for PBXNativeTarget "binarycookiesUITests" */;
-			buildPhases = (
-				C6917A921CA1843E0071DC63 /* Sources */,
-				C6917A931CA1843E0071DC63 /* Frameworks */,
-				C6917A941CA1843E0071DC63 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C6917A981CA1843E0071DC63 /* PBXTargetDependency */,
-			);
-			name = binarycookiesUITests;
-			productName = binarycookiesUITests;
-			productReference = C6917A961CA1843E0071DC63 /* binarycookiesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,10 +192,6 @@
 						CreatedOnToolsVersion = 7.3;
 					};
 					C6917A8A1CA1843E0071DC63 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = C6917A771CA1843E0071DC63;
-					};
-					C6917A951CA1843E0071DC63 = {
 						CreatedOnToolsVersion = 7.3;
 						TestTargetID = C6917A771CA1843E0071DC63;
 					};
@@ -239,7 +212,6 @@
 			targets = (
 				C6917A771CA1843E0071DC63 /* binarycookies */,
 				C6917A8A1CA1843E0071DC63 /* binarycookiesTests */,
-				C6917A951CA1843E0071DC63 /* binarycookiesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,13 +233,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6917A941CA1843E0071DC63 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -275,7 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6917AAB1CA18D920071DC63 /* binaryCookieReader.m in Sources */,
+				C6917AAF1CA1A9FC0071DC63 /* CookieParser.m in Sources */,
+				C6917AAB1CA18D920071DC63 /* binaryreader.m in Sources */,
+				C6BCED761CA49C1400545132 /* BinaryCookies.m in Sources */,
 				C6917A801CA1843E0071DC63 /* main.m in Sources */,
 				C6917A7D1CA1843E0071DC63 /* AppDelegate.m in Sources */,
 			);
@@ -285,16 +252,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6917A901CA1843E0071DC63 /* binarycookiesTests.m in Sources */,
-				C6917AAC1CA18D920071DC63 /* binaryCookieReader.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6917A921CA1843E0071DC63 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6917A9B1CA1843E0071DC63 /* binarycookiesUITests.m in Sources */,
+				C65957251CAC3170009908EF /* BinaryCookiesTest.m in Sources */,
+				C6BCED771CA49C1400545132 /* BinaryCookies.m in Sources */,
+				C6917AB01CA1A9FC0071DC63 /* CookieParser.m in Sources */,
+				C6917AAC1CA18D920071DC63 /* binaryreader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,11 +266,6 @@
 			isa = PBXTargetDependency;
 			target = C6917A771CA1843E0071DC63 /* binarycookies */;
 			targetProxy = C6917A8C1CA1843E0071DC63 /* PBXContainerItemProxy */;
-		};
-		C6917A981CA1843E0071DC63 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C6917A771CA1843E0071DC63 /* binarycookies */;
-			targetProxy = C6917A971CA1843E0071DC63 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -458,30 +414,6 @@
 			};
 			name = Release;
 		};
-		C6917AA61CA1843E0071DC63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = binarycookiesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tv.from.chajka.binarycookiesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = binarycookies;
-			};
-			name = Debug;
-		};
-		C6917AA71CA1843E0071DC63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = binarycookiesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tv.from.chajka.binarycookiesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = binarycookies;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -501,6 +433,7 @@
 				C6917AA11CA1843E0071DC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6917AA21CA1843E0071DC63 /* Build configuration list for PBXNativeTarget "binarycookiesTests" */ = {
 			isa = XCConfigurationList;
@@ -509,14 +442,7 @@
 				C6917AA41CA1843E0071DC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		C6917AA51CA1843E0071DC63 /* Build configuration list for PBXNativeTarget "binarycookiesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C6917AA61CA1843E0071DC63 /* Debug */,
-				C6917AA71CA1843E0071DC63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
